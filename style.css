@@ -40,6 +40,8 @@
         .texto1 {
             font-size: 34px;
             margin-top: 100px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            
         }
         .texto2{
             font-size: 34px;
@@ -54,6 +56,16 @@
             border-radius: 20px 20px 20px 20px;
             border-color: rgb(153, 153, 192);
             border-style: solid;
+            width: 280px;
+            text-align: center;
+            block-size: 40px;
+            line-height: 35px;
+            
+        }
+        .caixa1 img, .caixa2 img {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
         }
         .caixa2{
             margin-top: 5px;
@@ -61,12 +73,23 @@
             border-radius: 20px 20px 20px 20px;
             border-color: rgb(153, 153, 192);
             border-style: solid;
+            width: 280px;
+            text-align: center;
+            block-size: 40px;
+            line-height: 35px;
+            
         }
         .caixa3{
             margin-top: 1px;
             border: 1px;
             border-radius: 20px 20px 20px 20px;
-            border-color: rgb(153, 153, 192);
+            border-color: rgb(29, 155, 240);
             border-style: solid;
+            background-color: rgb(29, 155, 240);
+            width: 280px;
+            text-align: center;
+            block-size: 40px;
+            line-height: 35px;
+            color: white;
         }
         
