@@ -50,11 +50,23 @@
         }
         .caixa1{
             margin-top: 20px;
+            border: 1px;
+            border-radius: 20px 20px 20px 20px;
+            border-color: rgb(153, 153, 192);
+            border-style: solid;
         }
         .caixa2{
             margin-top: 5px;
+            border: 1px;
+            border-radius: 20px 20px 20px 20px;
+            border-color: rgb(153, 153, 192);
+            border-style: solid;
         }
         .caixa3{
-            margin-top: ;
+            margin-top: 1px;
+            border: 1px;
+            border-radius: 20px 20px 20px 20px;
+            border-color: rgb(153, 153, 192);
+            border-style: solid;
         }
         
