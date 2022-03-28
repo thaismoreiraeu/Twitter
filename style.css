@@ -35,6 +35,11 @@
     .texto2{
             font-size: 34px;
             margin-top: 60px;  
+            font-family: 'lato', sans-serif;
+            white-space: inherit;
+            margin-left: 8px;
+            word-spacing: 4px;
+            color: rgb(54, 53, 53);
     }
     .linha1{
             margin-right: 550px;
