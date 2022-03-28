@@ -1,59 +1,45 @@
-
-        body {
+    body {
             margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            
-        }
+    }
 
-        .imgesquerda{
+    .imgesquerda{
             width: auto;
             height: 650px;
             position: absolute ;
             margin-right: 50%;
             overflow-x: hidden;
             overflow-y: hidden;
-        }
+    }
 
-        .imgesquerda .fundo-azul{
-            margin-left: -350px;
-        }
-
-        
-        .imgesquerda .logo-branco{
-            position: inherit;
-            margin-left: 20%;
-            margin-top: 20%;
-            height: 300px;
-            width: 300px;  
-        }
-
-        .login{
+    .login{
             padding: 12px;
             height: 650px;
             width: auto;
             position: absolute;
             margin-left: 50%;
             background-color: white;
-        }
-        .logo img{
+    }
+    .logo img{
             height: 34px;
             width: 42px;
-        }
-        .texto1 {
+    }
+    .texto1 {
             font-size: 34px;
             margin-top: 100px;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            
-        }
-        .texto2{
+            font-family: 'lato', sans-serif;
+            white-space: inherit;
+            margin-left: 8px;
+            word-spacing: 4px;
+            color: rgb(54, 53, 53);
+    }
+    .texto2{
             font-size: 34px;
             margin-top: 60px;  
-        }
-        .linha1{
+    }
+    .linha1{
             margin-right: 550px;
-        }
-        .caixa1{
+    }
+    .caixa1{
             margin-top: 20px;
             border: 1px;
             border-radius: 20px 20px 20px 20px;
@@ -63,14 +49,13 @@
             text-align: center;
             block-size: 40px;
             line-height: 35px;
-            
-        }
-        .caixa1 img, .caixa2 img {
-            width: 24px;
+                        
+    }
+    .caixa1 img, .caixa2 img {
             height: 24px;
             vertical-align: middle;
-        }
-        .caixa2{
+    }
+    .caixa2{
             margin-top: 5px;
             border: 1px;
             border-radius: 20px 20px 20px 20px;
@@ -81,8 +66,8 @@
             block-size: 40px;
             line-height: 35px;
             
-        }
-        .caixa3{
+    }
+    .caixa3{
             margin-top: 1px;
             border: 1px;
             border-radius: 20px 20px 20px 20px;
@@ -95,4 +80,3 @@
             line-height: 35px;
             color: white;
         }
-        
