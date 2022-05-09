@@ -7,50 +7,53 @@
     <title>Twitter. É o que está acontecendo / Twitter</title>
     <link rel="shortcut icon" href="imagens/twitter-logo-1.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link href="htttps://fonts.googleapis.com/css2?family=lato:wght@900&display=swap" rel="stylesheet"
+    <link href="htttps://fonts.googleapis.com/css2?family=lato:wght@900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
-<span class="imgesquerda">        
-    <img class="imagemunica" src="imagens/imagem twitter.png" alt="">
-    
-</span>    
-<span class="login">
-    <div class="logo">
-        <img src="imagens/twitter-logo-1.png" alt="">
+    <div id="context">
+        <div id="loggedout">
+            <span class="imgesquerda">
+                <img class="imagemunica" src="imagens/imagem twitter.png" alt="">  
+            </span>
+            <div class="login">
+                <div class="logo">
+                    <img src="imagens/twitter-logo-1.png" alt="">
+                </div>
+                <div class="texto1">Acontecendo agora</div>
+                <div class="texto2">Inscreva-se no twitter hoje mesmo.</div>
+                <div class="caixa1">
+                    <span class="icone1"><img src="imagens/logo_google.png" alt=""></span>
+                    Inscreva-se com Google
+                </div>
+                <div class="caixa2">
+                    <span><img src="imagens/logo apple.png" alt=""></span>
+                    Inscreva-se com Apple
+                </div>
+                <div class="linha1">
+                    <hr size="1" width="80"> 
+                    <span>OU</span>
+                    <span class="linha2"><hr size="1" width="80"></span>
+                </div>
+                <div class="caixa3">
+                    Inscreva-se com o número de celular...
+                </div>
+                <div>
+                    Ao se inscrever você concorda com os Termos de Serviços e a Política de Privacidade, incluindo o Uso de Cookies
+                </div>
+                <br><br>
+                <input id="email" type="email" placeholder="Digite seu email" />
+                <input id="password" type="password" placeholder="Digite sua senha" />
+                <button class="botaoComum" onclick="login()">Logar</button>
+            </div>
+        </div>
+        <div id="loggedin">
+            <input id="search" type="text" placeholder="Buscar" />
+            <br><button class="botaoComum" onclick="search()">Buscar</button>
+            <br><br>
+            <ul id="posts"></ul>
+        </div>
     </div>
-    <div class="texto1">
-        Acontecendo agora
-    </div>
-    <div class="texto2">
-        Inscreva-se no twitter hoje mesmo.
-    </div>
-    <div class="caixa1">
-        <span class="icone1">
-            <img src="imagens/logo_google.png" alt="">
-        </span>
-        Inscreva-se com Google
-    </div>
-    <div class="caixa2">
-        <span>
-            <img src="imagens/logo apple.png" alt="">
-        </span>
-       Inscreva-se com Apple
-    </div>
-    <div class="linha1">
-        <hr size="1" width="80"> 
-        <span>
-            OU
-        </span>
-        <span class="linha2">
-            <hr size="1" width="80"
-        </span>
-    </div>
-    <div class="caixa3">
-        Inscreva-se com o número de celular...
-    </div>
-    <div>
-        Ao se inscrever você concorda com os Termos de Serviços e a Política de Privacidade, incluindo o Uso de Cookies
-    </div>
-</span>
 </body>
 </html>
