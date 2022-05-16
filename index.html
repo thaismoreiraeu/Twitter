@@ -11,7 +11,7 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="script.js"></script>
 </head>
-<body>
+<body onload='logado()'>
     <div id="context">
         <div id="loggedout">
             <span class="imgesquerda">
@@ -43,12 +43,14 @@
                     Ao se inscrever você concorda com os Termos de Serviços e a Política de Privacidade, incluindo o Uso de Cookies
                 </div>
                 <br><br>
+                <p id="validacao"></p>
                 <input id="email" type="email" placeholder="Digite seu email" />
                 <input id="password" type="password" placeholder="Digite sua senha" />
                 <button class="botaoComum" onclick="login()">Logar</button>
             </div>
         </div>
         <div id="loggedin">
+            <div><button onclick="logout()">Logout</button></div>
             <input id="search" type="text" placeholder="Buscar" />
             <br><button class="botaoComum" onclick="search()">Buscar</button>
             <br><br>

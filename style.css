@@ -1,87 +1,94 @@
-    body {
-            margin: 0;
-    }
+body {
+        margin: 0;
+}
 
-    .imgesquerda{
-            width: auto;
-            height: 650px;
-            position: absolute ;
-            margin-right: 50%;
-            overflow-x: hidden;
-            overflow-y: hidden;
-    }
+.imgesquerda{
+        width: auto;
+        height: 650px;
+        position: absolute ;
+        margin-right: 50%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+}
 
-    .login{
-            padding: 12px;
-            height: 650px;
-            width: auto;
-            position: absolute;
-            margin-left: 50%;
-            background-color: white;
+.login{
+        padding: 12px;
+        height: 650px;
+        width: auto;
+        position: absolute;
+        margin-left: 50%;
+        background-color: white;
+}
+.logo img{
+        height: 34px;
+        width: 42px;
+}
+.texto1 {
+        font-size: 34px;
+        margin-top: 100px;
+        font-family: 'lato', sans-serif;
+        white-space: inherit;
+        margin-left: 8px;
+        word-spacing: 4px;
+        color: rgb(54, 53, 53);
+}
+.texto2{
+        font-size: 34px;
+        margin-top: 60px;  
+        font-family: 'lato', sans-serif;
+        white-space: inherit;
+        margin-left: 8px;
+        word-spacing: 4px;
+        color: rgb(54, 53, 53);
+}
+.linha1{
+        margin-right: 550px;
+}
+.caixa1{
+        margin-top: 20px;
+        border: 1px;
+        border-radius: 20px 20px 20px 20px;
+        border-color: rgb(153, 153, 192);
+        border-style: solid;
+        width: 280px;
+        text-align: center;
+        block-size: 40px;
+        line-height: 35px;
+                    
+}
+.caixa1 img, .caixa2 img {
+        height: 24px;
+        vertical-align: middle;
+}
+.caixa2{
+        margin-top: 5px;
+        border: 1px;
+        border-radius: 20px 20px 20px 20px;
+        border-color: rgb(153, 153, 192);
+        border-style: solid;
+        width: 280px;
+        text-align: center;
+        block-size: 40px;
+        line-height: 35px;
+        
+}
+.caixa3{
+        margin-top: 1px;
+        border: 1px;
+        border-radius: 20px 20px 20px 20px;
+        border-color: rgb(29, 155, 240);
+        border-style: solid;
+        background-color: rgb(29, 155, 240);
+        width: 280px;
+        text-align: center;
+        block-size: 40px;
+        line-height: 35px;
+        color: white;
     }
-    .logo img{
-            height: 34px;
-            width: 42px;
+#loggedin{
+    padding: 50px;
+    visibility: hidden;
     }
-    .texto1 {
-            font-size: 34px;
-            margin-top: 100px;
-            font-family: 'lato', sans-serif;
-            white-space: inherit;
-            margin-left: 8px;
-            word-spacing: 4px;
-            color: rgb(54, 53, 53);
-    }
-    .texto2{
-            font-size: 34px;
-            margin-top: 60px;  
-            font-family: 'lato', sans-serif;
-            white-space: inherit;
-            margin-left: 8px;
-            word-spacing: 4px;
-            color: rgb(54, 53, 53);
-    }
-    .linha1{
-            margin-right: 550px;
-    }
-    .caixa1{
-            margin-top: 20px;
-            border: 1px;
-            border-radius: 20px 20px 20px 20px;
-            border-color: rgb(153, 153, 192);
-            border-style: solid;
-            width: 280px;
-            text-align: center;
-            block-size: 40px;
-            line-height: 35px;
-                        
-    }
-    .caixa1 img, .caixa2 img {
-            height: 24px;
-            vertical-align: middle;
-    }
-    .caixa2{
-            margin-top: 5px;
-            border: 1px;
-            border-radius: 20px 20px 20px 20px;
-            border-color: rgb(153, 153, 192);
-            border-style: solid;
-            width: 280px;
-            text-align: center;
-            block-size: 40px;
-            line-height: 35px;
-            
-    }
-    .caixa3{
-            margin-top: 1px;
-            border: 1px;
-            border-radius: 20px 20px 20px 20px;
-            border-color: rgb(29, 155, 240);
-            border-style: solid;
-            background-color: rgb(29, 155, 240);
-            width: 280px;
-            text-align: center;
-            block-size: 40px;
-            line-height: 35px;
-            color: white;
-        }
+#search{
+    margin-top: 50px;
+}
