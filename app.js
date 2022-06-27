@@ -1,3 +1,4 @@
+const PORT = process.env.PORT || 3000;
 const  path = require("path"),
   express = require("express"),
   app = express();
@@ -14,4 +15,4 @@ app.post("/cadastrar", cadastraUser.cadastrar);
 app.post("/login", login.entrar)
 
 
-app.listen(3000);
+app.listen(PORT);
