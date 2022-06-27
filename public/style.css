@@ -2,6 +2,11 @@ body {
         margin: 0;
 }
 
+.formcadastro, .formlogin {
+        padding: 20px;
+        background-color: aliceblue;
+}
+
 .imgesquerda{
         width: auto;
         height: 650px;

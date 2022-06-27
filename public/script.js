@@ -5,6 +5,32 @@ function logado() {
   }
 }
 
+function cadastrar() {
+  var valida = false;
+  if (document.getElementById('cadastraEmail').value.length < 3) {
+    document.getElementById('validacaoCadastro').innerHTML = 'Email invalido';
+  }else if (document.getElementById('cadastraPassword').value.length < 3){
+    document.getElementById('validacaoCadastro').innerHTML = 'Senha invalida';
+  }else{
+    valida = true;
+  }
+  if (valida === true){
+    const params = {
+      username: document.getElementById('cadastraEmail').value,
+      password: document.getElementById('cadastraPassword').value
+    };
+
+    axios.post('/cadastrar', params)
+      .then(res => {
+            document.getElementById('validacaoCadastro').innerHTML = 'Cadastrado Com Sucesso!';
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  }
+
+}
+
 function login() {
   var valida = false;
   if (document.getElementById('email').value.length < 3) {
