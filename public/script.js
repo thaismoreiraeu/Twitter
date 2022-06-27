@@ -5,6 +5,8 @@ function logado() {
   }
 }
 
+
+
 function cadastrar() {
   var valida = false;
   if (document.getElementById('cadastraEmail').value.length < 3) {
@@ -42,11 +44,11 @@ function login() {
   }
   if (valida === true){
     const params = {
-      email: document.getElementById('email').value,
+      username: document.getElementById('email').value,
       password: document.getElementById('password').value
     };
 
-    axios.post('https://reqres.in/api/login', params)
+    axios.post('/login', params)
       .then(res => {
         const { token } = res.data;
         localStorage.setItem('token', token);
