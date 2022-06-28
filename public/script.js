@@ -17,7 +17,7 @@ function cadastrar() {
     document.getElementById('validacaoCadastro').innerHTML = 'Email invalido';
   }else if (document.getElementById('cadastraEmail').value.indexOf("@") == 0){
    document.getElementById('validacaoCadastro').innerHTML = 'Email invalido';
-  }else if (document.getElementById('cadastraEmail').value.indexOf('@') == document.getElementById('cadastraEmail').value.length()){
+  }else if (document.getElementById('cadastraEmail').value.indexOf('@') == document.getElementById('cadastraEmail').value.length){
     document.getElementById('validacaoCadastro').innerHTML = 'Email invalido'; 
      
   }else{
