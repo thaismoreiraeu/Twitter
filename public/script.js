@@ -9,10 +9,17 @@ function logado() {
 
 function cadastrar() {
   var valida = false;
-  if (document.getElementById('cadastraEmail').value.length < 3) {
+  if (document.getElementById('cadastraEmail').value.length < 3){
     document.getElementById('validacaoCadastro').innerHTML = 'Email invalido';
   }else if (document.getElementById('cadastraPassword').value.length < 3){
     document.getElementById('validacaoCadastro').innerHTML = 'Senha invalida';
+  }else if (document.getElementById ('cadastraEmail').value.indexOf("@") == -1){
+    document.getElementById('validacaoCadastro').innerHTML = 'Email invalido';
+  }else if (document.getElementById('cadastraEmail').value.indexOf("@") == 0){
+   document.getElementById('validacaoCadastro').innerHTML = 'Email invalido';
+  }else if (document.getElementById('cadastraEmail').value.indexOf('@') == document.getElementById('cadastraEmail').value.length()){
+    document.getElementById('validacaoCadastro').innerHTML = 'Email invalido'; 
+     
   }else{
     valida = true;
   }

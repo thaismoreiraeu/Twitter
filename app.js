@@ -1,3 +1,4 @@
+const cors = require("cors");
 const PORT = process.env.PORT || 3000;
 const  path = require("path"),
   express = require("express"),
@@ -9,6 +10,7 @@ import login from "./route/login";
 
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
+app.use(cors());
 
 
 app.post("/cadastrar", cadastraUser.cadastrar);
